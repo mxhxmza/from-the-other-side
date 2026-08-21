@@ -5,3 +5,7 @@ export async function handleGet(res){
     const data = JSON.stringify(await getdata());
     sendresponse(res, 200, 'application/json', data);
 }
+
+export function handlePost(req, res){
+    console.log('Post received');
+}
