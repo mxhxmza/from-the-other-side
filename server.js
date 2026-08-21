@@ -8,7 +8,6 @@ import { handlePost } from './handlers/routeHandlers.js';
 const PORT = 8000;
 
 const __dirname = import.meta.dirname;
-console.log(await getdata());
 
 const server = http.createServer(async (req, res) => {
 
